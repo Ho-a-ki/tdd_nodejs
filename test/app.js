@@ -10,9 +10,11 @@ module.exports = class Checkout{
     }
 
     addItem(item) {
-        if ( this.prices[item] == undefined) {
+        if (this.prices[item] == undefined) {
             throw("No price defined for item " + item)
         }
+        // addItemPrice 없이 addItem 먼저 되는 것을 방지한다.
+        
         if (this.items[item] == undefined) {
             this.items[item] = 1;
         }

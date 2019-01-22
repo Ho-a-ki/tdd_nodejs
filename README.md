@@ -187,6 +187,13 @@ Test Cases !
 
 OOP!
 
-## 18. 
+## 18. Apply Discounts
 
+이 부분. 짜면서 들었던 생각은 뭐 결국 테스트야 그렇다
+치더라도 코드 짜는 부분은 결국 누군가의 code review가 필요하고
+개인의 실력에 따라 바뀐다는 건 자명한 사실 인듯!
+내가 생각하고 필요한 discount 구현이랑 다른 부분이라.
 
+## 19. 
+
+Error Throwing.
