@@ -41,6 +41,36 @@ it('if i pass 15, return fizzbuzz', function() {
     CheckfizzBuzz(15, 'fizzbuzz')
 })
 
+describe('test_suite', function() {
+    before(function() {
+        console.log('setup test')
+    })
+    it('if i pass 5, fizzbuzz return buzz' ,function() {
+        CheckfizzBuzz(5, 'buzz')
+    })
+    after(function(){
+        console.log('teardown test')
+    })
+
+    beforeEach('setup for each test', function() {
+        console.log('setup code for each test!')
+    })
+
+    afterEach('setup for each test', function() {
+        console.log('teardown code for each test!')
+    })
+
+    it('test1 이 실행됩니다.' ,function() {
+        console.log('test1');
+        expect(true).to.equal(true)
+    })
+
+    it('test2 이 실행됩니다.' ,function() {
+        console.log('test2');
+        expect(true).to.equal(true)
+    })
+})
+
 /*
 red > green > refactor > red > ...
 
