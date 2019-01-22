@@ -1,5 +1,6 @@
 https://www.udemy.com/unit-testing-and-test-driven-development-in-nodejs/learn/v4/overview
 
+
 ## 2. What is Unit Testing?
 
 by catching any bugs in the software before they get to the field.
@@ -65,5 +66,4 @@ Chai : assertion library.
 
 npm test 하면 자동적으로 test 폴더 안에 있는 것들을 테스트 합니다. 파일 여러개도 알아서 함.
 
-
-## 10.
+## 11. 테스트 시작
