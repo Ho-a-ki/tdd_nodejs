@@ -66,4 +66,35 @@ Chai : assertion library.
 npm test 하면 자동적으로 test 폴더 안에 있는 것들을 테스트 합니다. 파일 여러개도 알아서 함.
 
 
-## 10.
+## 10. Test Suites.
+
+how to organize your unit tests in a test suites with mocha
+
+test suites allow you to group similar unit tests together.
+
+about grouping test!
+suite가 하나의 그룹이 되어서 그 안에 Nest 하게 넣어서 만들 수 있다.
+
+## 10. Test Setup and Teardown
+
+Mocha 'Before' and 'After' Hooks.
+
+```js
+
+describe('test_suite', function() {
+    before(function() {
+        console.log('Before Tests')
+    })
+    it(function() {
+        expect(call().to.equal(true));
+    })
+    after(function() {
+        console.log('After Tests')
+    })
+})
+
+```
+
+beforeEach 랑 afterEach 코드도 있다.
+can specify muliple and can be placed anywhere in the describe block!
+
